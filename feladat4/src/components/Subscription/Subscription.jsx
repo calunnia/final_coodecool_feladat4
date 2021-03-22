@@ -1,9 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 
-function Subscription() {
+function Subscription({hotelname}) {
+    const [subscribe,setSubscribe] = useState(false)
+    
     return (
         <div>
-            Subscription
+           <button onClick={()=>setSubscribe(true) }> Request more info about {hotelname}</button>
+           {subscribe && 
+           <>
+                <input type="email" />
+                <button disabled >Submit</button>
+                </>
+                 }
         </div>
     )
 }

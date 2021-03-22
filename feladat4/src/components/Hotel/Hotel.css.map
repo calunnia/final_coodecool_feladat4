@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,MAAM,EAAC,eAAe;CACvB",
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,MAAM,EAAC,eAAe;EACtB,OAAO,EAAC,IAAI;EACZ,UAAU,EAAE,MAAM;CAEnB",
     "sources": [
         "Hotel.scss"
     ],
